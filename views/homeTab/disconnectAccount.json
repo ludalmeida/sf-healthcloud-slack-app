@@ -1,0 +1,30 @@
+{
+  "type": "modal",
+  "callback_id": "disconnect_account_modal",
+	"title": {
+		"type": "plain_text",
+		"text": "Salesforce Health Cloud",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Disconnect Account",
+		"emoji": true
+	},
+	"type": "modal",
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Are you sure?",
+				"emoji": true
+			}
+		}
+	]
+}

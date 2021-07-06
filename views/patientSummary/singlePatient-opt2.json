@@ -1,0 +1,109 @@
+{
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Patient Summary for Charles Green",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Demographic Information*\n*Charles Green*\nDOB: 06/23/1963\nAge: 65 years\nSex: Male"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Contact Information*\n Email: charles.user@gmail.com \n Mobile: (424) 421-9671 \n Address: 505 Parnassus Ave, San Francisco, CA 94143\n Emergency Contact: Shawna Green - (415) 555-1234"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Insurance Information*\nMember ID: KAIS91735241\nEffective to: 12/31/2021\nRole: Primary Member"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Medications"
+					},
+					"value": "click_me_123",
+					"action_id": "view_medications"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Providers"
+					},
+					"value": "view_providers",
+					"action_id": "view_providers"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Encounters"
+					},
+					"value": "click_me_123",
+					"action_id": "view_encounters"
+				},
+				{
+					"type": "static_select",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Actions",
+						"emoji": true
+					},
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Edit Patient Details",
+								"emoji": true
+							},
+							"value": "edit_patient_detail"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Refer Patient",
+								"emoji": true
+							},
+							"value": "refer_patient"
+						}
+					],
+					"action_id": "edit_refer_patient"
+				}
+			]
+		}
+	]
+}

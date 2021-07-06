@@ -1,0 +1,35 @@
+{
+	"title": {
+		"type": "plain_text",
+		"text": "Salesforce Health Cloud",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Delete",
+		"emoji": true
+	},
+	"type": "modal",
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Delete Encounter",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Name: CE-0001*\nStatus: Finished\nCategory: Emergency\nStart Date: May 29, 2021, 8:37:44 AM\nEnd Date: May 29, 2021, 8:37:44 AM\nFacility: UCSF"
+			}
+		}
+	]
+}

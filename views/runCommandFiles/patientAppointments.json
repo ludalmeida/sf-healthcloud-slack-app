@@ -1,0 +1,302 @@
+[
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Appointments for June 1, 2021",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Today",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Tomorrow",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "show_tasks_for_date"
+				},
+				{
+					"type": "datepicker",
+					"initial_date": "2021-06-01",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select a date",
+						"emoji": true
+					}
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Create New Appointment",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "create_new_appointment"
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Charles Green at 11:00 AM with Dr. Amy Huffman*\nDOB: 06/23/1963\n Email: charles.user@gmail.com\n Mobile: (424) 421-9671 \nEmergency Contact: Shawna Green - (415) 555-1234"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Patient Summary"
+					},
+					"style": "primary",
+					"value": "view_patient_summary",
+					"action_id": "view_patient_summary"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Encounter"
+					},
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Task"
+					},
+					"value": "create_task_button",
+					"action_id": "create_task"
+				},
+				{
+					"type": "static_select",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Actions",
+						"emoji": true
+					},
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Appointment",
+								"emoji": true
+							},
+							"value": "view_appointment"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Edit Appointment",
+								"emoji": true
+							},
+							"value": "edit_appointment"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Delete Appointment",
+								"emoji": true
+							},
+							"value": "delete_appointment"
+						}
+					],
+					"action_id": "view_edit_delete_appointment"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Rafael Solano at 11:15 AM with Dr. Amy Huffman*\nDOB: 08/19/1984\n Email: rafael.solano@gmail.com \n Mobile: (424) 653-9785 \nEmergency Contact: Luisa Alver - (415) 555-4236"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://pbs.twimg.com/profile_images/694345725812015105/Diu4xkHC_400x400.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Patient Summary"
+					},
+					"style": "primary",
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Encounter"
+					},
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Task"
+					},
+					"value": "click_me_123"
+				},
+				{
+					"type": "static_select",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "...",
+						"emoji": true
+					},
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Appointment",
+								"emoji": true
+							},
+							"value": "value-0"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Edit Appointment",
+								"emoji": true
+							},
+							"value": "value-1"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Delete Appointment",
+								"emoji": true
+							},
+							"value": "value-2"
+						}
+					],
+					"action_id": "actionId-3"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Jane Villanueva at 11:30 AM with Dr. Amy Huffman*\nDOB: 03/11/1985\n Email: jane.villanueva@gmail.com \n Mobile: (424) 741-1598\nEmergency Contact: Rogelio De La Vega - (415) 555-5678"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://www.collegefashion.net/wp-content/uploads/2019/04/jane-the-virgin.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Patient Summary"
+					},
+					"style": "primary",
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Encounter"
+					},
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Task"
+					},
+					"value": "click_me_123"
+				},
+				{
+					"type": "static_select",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "...",
+						"emoji": true
+					},
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Appointment",
+								"emoji": true
+							},
+							"value": "value-0"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Edit Appointment",
+								"emoji": true
+							},
+							"value": "value-1"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Delete Appointment",
+								"emoji": true
+							},
+							"value": "value-2"
+						}
+					],
+					"action_id": "actionId-3"
+				}
+			]
+		}
+	]

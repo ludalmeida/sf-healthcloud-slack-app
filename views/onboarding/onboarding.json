@@ -1,0 +1,92 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Great! Here are some things I can do for you."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "🔐 *Securely collaborate with care teams* \n Create private patient channels to access data and exchange information with the rest of the care team. "
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*🖥  Optimize clinical workflows* \n Automate intake and discharge workflows, document management, referrals, and handoffs to efficiently manage patient care."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*✅  Stay up-to-date with care plans tasks* \n Keep care plans and tasks updated using simple commands, task status is synced automatically to Health Cloud."
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*🔔 Set up critical care alerts* \n Push notifications to the care team including critical device alerts and lab results from the EMR. "
+			}
+		},
+    	{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "What would you like to do first?"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Practice with a Sample Patient",
+						"emoji": true
+					},
+					"value": "practice_with_patient",
+					"action_id": "practice_with_patient",
+          "style": "primary"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Watch Demo",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-1"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Quick Overview",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId3"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Help",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId"
+				}
+			]
+		}
+	]
+}

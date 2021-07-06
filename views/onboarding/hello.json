@@ -1,0 +1,56 @@
+``{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":wave: Hi there! \n I'm sf-health, a chatbot. I'm here to help you support your patients in their health journey. \n First, tell me awbout yourself. What's the main thing you do here?"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Care Coordinator",
+						"emoji": true
+					},
+					"value": "care_coordinator",
+					"action_id": "care_coordinator"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Nurse",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-1"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Physician",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-2"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Other",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "actionId-3"
+				}
+			]
+		}
+	]
+}

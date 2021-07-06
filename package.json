@@ -1,0 +1,21 @@
+{
+  "name": "@slack/slack-bolt-sdk-example",
+  "version": "1.1.0",
+  "private": true,
+  "description": "A basic example of using the Slack Bolt ⚡️ SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Slack Technologies, Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.4.1",
+    "@slack/web-api": "^6.2.4",
+    "@slack/events-api": "^3.0.1",
+    "slack-notify": "^0.1.7"
+  }
+}

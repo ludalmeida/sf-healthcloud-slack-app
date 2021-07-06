@@ -1,0 +1,126 @@
+[
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Patient Summary for Charles Green",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Demographic Information*\n*Charles Green*\nDOB: 06/23/1963\nAge: 65 years\nSex: Male"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Contact Information*\nMobile: (424) 421-9671\nEmail: charles.user@gmail.com\nAddress: 505 Parnassus Ave, San Francisco, CA 94143\nEmergency Contact: Shawna Green - (415) 555-1234"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Insurance Information*\nMember ID: KAIS91735241\nEffective to: 12/31/2021\nRole: Primary Member"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Edit Patient Details"
+					},
+					"value": "edit_patient_details",
+					"action_id": "edit_patient_details"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Medications"
+					},
+					"value": "click_me_123",
+					"action_id": "view_medications"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Refer Patient"
+					},
+					"value": "refer_patient",
+					"action_id": "refer_patient"
+				},
+				{
+					"type": "overflow",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Providers",
+								"emoji": true
+							},
+							"value": "view_provider"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Allergies",
+								"emoji": true
+							},
+							"value": "view_allergies"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Diagnoses",
+								"emoji": true
+							},
+							"value": "view_diagnoses"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Immunizations",
+								"emoji": true
+							},
+							"value": "view_immunizations"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "View Social Determinants",
+								"emoji": true
+							},
+							"value": "view_social_determinants"
+						}
+					],
+					"action_id": "single_patient_options"
+				}
+			]
+		}
+	]

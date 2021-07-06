@@ -1,0 +1,114 @@
+[
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Encounters for Charles Green ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*DOB:* 06/23/1963\n*Mobile:* (424) 421-9671\n*Emergency Contact:* Shawna Green - (415) 555-1234"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "Charles Green"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Name: CE-0001*\nStatus: Finished\nCategory: Emergency\nStart Date: May 29, 2021, 8:37:44 AM\nEnd Date: May 29, 2021, 8:37:44 AM\nFacility: UCSF"
+			},
+			"accessory": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Actions",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Edit Encounter",
+							"emoji": true
+						},
+						"value": "edit_encounter"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Delete Encounter",
+							"emoji": true
+						},
+						"value": "delete_encounter"
+					}
+				],
+				"action_id": "edit_delete_encounter"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Name: CE-0002*\nStatus: Open\nCategory: Outpatient\nStart Date: June 03, 2021, 11:00:23 AM\n End Date: June 03, 2021, 11:15:11 AM\nFacility: UCSF"
+			},
+			"accessory": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Actions",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Edit Encounter",
+							"emoji": true
+						},
+						"value": "edit_encounter"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Delete Encounter",
+							"emoji": true
+						},
+						"value": "delete_encounter"
+					}
+				],
+				"action_id": "edit_delete_encounter"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Create New Encounter",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "create_encounter_button"
+				}
+			]
+		}
+	]
