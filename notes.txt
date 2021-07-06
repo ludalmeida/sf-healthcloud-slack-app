@@ -1,0 +1,7 @@
+Doug: Pave the way on a notification example and what needs to be specified
+
+Doug: Enable "Start Command" to send messages to app home message tab
+
+Madhavi: We should add the date and time to the appointments
+Madhavi: We should add the practitioner contact details of the referring physician to the care request so the care coordinator can call them if neeeded
+Madhavi: We should add the practitioner contact details of the referring physician to the referral so the care coordinator can call them if neeeded

@@ -1,0 +1,303 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Happy to help! Here are some of the things I can help you do."
+			}
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Help",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health help` to pull up this menu. Do it from anywhere in Slack."
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Multiple Patients",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patients` to get a list of patients in your care."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patients"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient tasks` to see tasks that are assigned to for any of the patients/members that you manage."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_tasks"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient appointments` to retrieve the list of appointments for patients in your care."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_appointments"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Single Patient Details",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient summary` to retrieve a patient summary for the patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_summary"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient providers` to see a list of providers for a patient to access their contact information."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_providers"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient medications` to retrieve the list of medications for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_medications"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient encounters` to open patient encounters list."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_encounters"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient referrals` to retrieve the open patient referrals."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_referrals"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient careplans` to retrieve the list of care plans for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_careplans"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient carerequests` to retrieve the open care requests for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_carerequests"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient conditions` to retrieve the list of conditions for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_conditions"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient diagnoses` retrieve the diagnoses for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_diagnosis"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient sdoh` to retrieve the list of social determinants for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_sdoh"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient immunizations` to retrieve the list of immunizations for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_immunizations"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "`/sf-health patient allergies` to retrieve the list of allergies for a patient."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patient_allergies"
+			}
+		}
+	]
+}

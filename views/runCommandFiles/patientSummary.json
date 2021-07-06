@@ -1,0 +1,129 @@
+[
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Your Patients",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Charles Green*\nDOB: 06/23/1963\n Email: charles.user@gmail.com \n Mobile: (424) 421-9671\nEmergency Contact: Shawna Green - (415) 555-1234"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Patient Summary"
+					},
+					"style": "primary",
+          "value": "view_patient_summary_2",
+					"action_id": "view_patient_summary_2"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Task"
+					},
+					"value": "create_task",
+          "action_id": "create_task"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Rafael Solano*\nDOB: 08/19/1984\n Email: rafael.solano@gmail.com \nMobile: (424) 653-9785 \nEmergency Contact: Luisa Alver - (415) 555-4236"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://pbs.twimg.com/profile_images/694345725812015105/Diu4xkHC_400x400.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Patient Summary"
+					},
+					"style": "primary",
+					"value": "view_patient_summary",
+          "action_id": "view_patient_summary"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Task"
+					},
+					"value": "create_task",
+          "action_id": "create_task"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Jane Villanueva*\nDOB: 03/11/1985\n Email: jane.villanueva@gmail.com \n Mobile: (424) 741-1598\nEmergency Contact: Rogelio De La Vega - (415) 555-5678"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://www.collegefashion.net/wp-content/uploads/2019/04/jane-the-virgin.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "View Patient Summary"
+					},
+					"style": "primary",
+					"value": "click_me_123"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Create Task"
+					},
+					"value": "create_task",
+          "action_id": "create_task"
+				}
+			]
+		}
+	]

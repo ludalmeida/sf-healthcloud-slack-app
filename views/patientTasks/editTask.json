@@ -1,0 +1,137 @@
+{
+	"title": {
+		"type": "plain_text",
+		"text": "Salesforce Health Cloud",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit",
+		"emoji": true
+	},
+	"type": "modal",
+	"close": {
+		"type": "plain_text",
+		"text": "Back",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Edit Task",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "plain_text_input-action",
+				"initial_value": "Check Blood Pressure"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Subject",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "datepicker",
+				"initial_date": "2021-06-10",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select a date",
+					"emoji": true
+				},
+				"action_id": "datepicker-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Due Date",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Assigned to"
+			},
+			"accessory": {
+				"type": "users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select a user",
+					"emoji": true
+				},
+				"action_id": "users_select-action"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "Status",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "radio_buttons",
+					"initial_option": {
+						"value": "In Progress",
+						"text": {
+							"type": "plain_text",
+							"text": "In Progress"
+						}
+					},
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "In Progress",
+								"emoji": true
+							},
+							"value": "In Progress"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Completed",
+								"emoji": true
+							},
+							"value": "value-1"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Deferred",
+								"emoji": true
+							},
+							"value": "value-2"
+						}
+					],
+					"action_id": "actionId-0"
+				}
+			]
+		}
+	]
+}

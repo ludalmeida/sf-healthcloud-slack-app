@@ -1,0 +1,114 @@
+[
+  {
+    "type": "header",
+    "text": {
+      "type": "plain_text",
+      "text": "Providers for Charles Green ",
+      "emoji": true
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*DOB:* 06/23/1963\n*Mobile:* (424) 421-9671\n*Emergency Contact:* Shawna Green - (415) 555-1234"
+    },
+    "accessory": {
+      "type": "image",
+      "image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+      "alt_text": "cute cat"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Harry Friedman - Diabetes Education *\nEmail: hfriedman@example.com \nPhone: (408) 555-1262"
+    },
+    "accessory": {
+      "type": "static_select",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "Actions",
+        "emoji": true
+      },
+      "options": [
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "Edit Provider",
+            "emoji": true
+          },
+          "value": "edit_provider"
+        },
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "Delete Provider",
+            "emoji": true
+          },
+          "value": "delete_provider"
+        }
+      ],
+      "action_id": "edit_delete_provider"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*Andy Molina - Cardioligist*\nEmail: amolina@example.com \nPhone: (408) 555-1262"
+    },
+    "accessory": {
+      "type": "static_select",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "Actions",
+        "emoji": true
+      },
+      "options": [
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "Edit Provider",
+            "emoji": true
+          },
+          "value": "value-0"
+        },
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "Delete Provider",
+            "emoji": true
+          },
+          "value": "value-1"
+        }
+      ],
+      "action_id": "check_provider_2"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Assign Provider",
+          "emoji": true
+        },
+        "value": "click_me_123",
+        "action_id": "assign_provider"
+      }
+    ]
+  }
+]

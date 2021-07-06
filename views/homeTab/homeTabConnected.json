@@ -1,0 +1,249 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hi there! Here are some quick tips to get you started"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Connect your Health Cloud account",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Your Health Cloud account is connected"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Disconnect Account",
+					"emoji": true
+				},
+				"style": "danger",
+				"value": "create_task",
+				"action_id": "disconnect_account"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Today’s Appointments",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Charles Green at 11:00 AM with Dr. Amy Huffman*\nDOB: 06/23/1963\n Email: charles.user@gmail.com \n Mobile: (424) 421-9671\nEmergency Contact: Shawna Green - (415) 555-1234"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Rafael Solano at 11:15 AM with Dr. Amy Huffman*\nDOB: 08/19/1984\n Email: rafael.solano@gmail.com \nMobile: (424) 653-9785 \nEmergency Contact: Luisa Alver - (415) 555-4236"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://pbs.twimg.com/profile_images/694345725812015105/Diu4xkHC_400x400.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Jane Villanueva at 11:30 AM with Dr. Amy Huffman*\nDOB: 03/11/1985\n Email: jane.villanueva@gmail.com \n Mobile: (424) 741-1598\nEmergency Contact: Rogelio De La Vega - (415) 555-5678"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://www.collegefashion.net/wp-content/uploads/2019/04/jane-the-virgin.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "View More Appointments",
+						"emoji": true
+					},
+					"value": "view_more_appointments_home_tab",
+					"action_id": "view_more_appointments_home_tab"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "To view Patient Summary or Create Task for an Appointment, please run this command in the Messages tab",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Today’s Tasks",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Patient: Charles Green*\nDOB: 07/13/1954 \nMobile: (424) 421-9671 "
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Check Blood Pressure"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Diabetes Education"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Patient: Jane Hamilton*\nDOB: 05/23/1955\nMobile: (424) 954-3051"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Follow up survey"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hypertension Education"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "View More Tasks",
+						"emoji": true
+					},
+					"value": "view_more_tasks_home_tab",
+					"action_id": "view_more_tasks_home_tab"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "To Edit or Delete Tasks, please run this command in the Messages tab",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "App Basics",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "View a list of patients in your care: `/sf-health patients`"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patients"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Get help: `/sf-health help`"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_help"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Running these commands will display data in the Messages tab. To view details like patient summary, medications, allergies, etc type /sf-health help in the Messages tab to see a list of all available commands.",
+					"emoji": true
+				}
+			]
+		}
+	]
+}

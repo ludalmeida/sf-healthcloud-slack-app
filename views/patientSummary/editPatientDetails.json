@@ -1,0 +1,68 @@
+{
+  "type": "modal",
+  "callback_id": "edit_patient_details_modal",
+	"title": {
+		"type": "plain_text",
+		"text": "Salesforce Health Cloud",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Next",
+		"emoji": true
+	},
+	"type": "modal",
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Edit Charles Green's Details",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "radio_buttons",
+					"options": [
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Demographic Information",
+								"emoji": true
+							},
+							"value": "demographic_info"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Contact Information",
+								"emoji": true
+							},
+							"value": "contact_info"
+						},
+						{
+							"text": {
+								"type": "plain_text",
+								"text": "Insurance Information",
+								"emoji": true
+							},
+							"value": "insurance_info"
+						}
+					],
+					"action_id": "select_demo_contact_insurance"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,132 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Hi there! Here are some quick tips to get you started"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Connect your Health Cloud account",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Connect your Health Cloud account"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Connect Account",
+					"emoji": true
+				},
+				"style": "primary",
+				"value": "create_task",
+				"action_id": "connect_to_salesforce"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Today’s Appointments",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Your appointments for today will show up here once your Health Cloud account is connected."
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Today’s Tasks",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Your tasks for today will show up here once your Health Cloud account is connected."
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "App Basics",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "View a list of patients in your care: `/sf-health patients`"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_patients"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Get help: `/sf-health help`"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Run Command",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "run_command_help"
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Running these commands will display data in the Messages tab. To view details like patient summary, medications, allergies, etc type /sf-health help in the Messages tab to see a list of all available commands.",
+					"emoji": true
+				}
+			]
+		}
+	]
+}

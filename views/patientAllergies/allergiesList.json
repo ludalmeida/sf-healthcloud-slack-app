@@ -1,0 +1,114 @@
+[
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Allergies for Charles Green",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*DOB:* 06/23/1963\n*Mobile:* (424) 421-9671\n*Emergency Contact:* Shawna Green - (415) 555-1234"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Peanuts*"
+			},
+			"accessory": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Actions",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Edit Allergy",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Delete Allergy",
+							"emoji": true
+						},
+						"value": "value-1"
+					}
+				],
+				"action_id": "allergy_1"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Penicillin*"
+			},
+			"accessory": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Actions",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Edit Allergy",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Delete Allergy",
+							"emoji": true
+						},
+						"value": "value-1"
+					}
+				],
+				"action_id": "allergy_2"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Assign Allergy",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "assign_allergy"
+				}
+			]
+		}
+	]

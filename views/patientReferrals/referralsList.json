@@ -1,0 +1,146 @@
+[
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Referrals for Charles Green",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*DOB:* 06/23/1963\n*Mobile:* (424) 421-9671\n*Emergency Contact:* Shawna Green - (415) 555-1234"
+			},
+			"accessory": {
+				"type": "image",
+				"image_url": "https://img.apmcdn.org/3f3231287c5eeda801a54564c22955379dbec0f2/uncropped/0a07ac-20160927-ove03.jpg",
+				"alt_text": "cute cat"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*051817-00000*\nReferring Physician: Carol Peterson\nDate of Referral: 6/2/2021\nDiagnosis Code: abcd\nPatient Type: Routine\nReferral Reason: Home Health Services\nRefersal Source: Live Chat"
+			},
+			"accessory": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Actions",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Accept Referral",
+							"emoji": true
+						},
+						"value": "accept_referral"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Reject Referral",
+							"emoji": true
+						},
+						"value": "reject_referral"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Edit Referral",
+							"emoji": true
+						},
+						"value": "edit_referral"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Delete Referral",
+							"emoji": true
+						},
+						"value": "delete_referral"
+					}
+				],
+				"action_id": "referral_options"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*060321-00050*\nReferring Physician: Amy Huffman\nDate of Referral: 1/10/2021\nDiagnosis Code: wxyz\nPatient Type: Inpatient\nReferral Reason: Acute Care\nRefersal Source: Phone"
+			},
+			"accessory": {
+				"type": "static_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Actions",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Accept Referral",
+							"emoji": true
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Reject Referral",
+							"emoji": true
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Edit Referral",
+							"emoji": true
+						},
+						"value": "value-2"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Delete Referral",
+							"emoji": true
+						},
+						"value": "value-3"
+					}
+				],
+				"action_id": "referral_2"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Create New Referral",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "refer_patient"
+				}
+			]
+		}
+	]
