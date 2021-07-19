@@ -23,11 +23,6 @@ Before you code, we recommend clonning this repository and running the prototype
 * The [`app_home_opened`](https://api.slack.com/events/app_home_opened) event gets triggered when a user opens the bot's "app home" for the first time
 * The app uses the Bolt's `say` method to send a welcome message to the user
 
-## Supported Features
-
-- Slash commands, see [sfdc.co/uisf-release-notes](https://sfdc.co/uisf-release-notes).
-- For information about **upcoming features**, including Slack blocks support, see [sfdc.co/saf-plan](https://sfdc.co/saf-plan).
-
 ## Create a Slack App on Slack.com
 
 To build a Slack app, create and configure a Slack app on [api.slack.com/apps](https://api.slack.com/apps) and use the settings in your code.
@@ -46,27 +41,40 @@ Your Slack app has its own bot user that sends messages and posts content to Sla
 
 Your Slack app can also **subscribe to events** that occur in a workspace in which it’s installed. On the Event Subscriptions page, add each event that your application handles.
 
-## Write Code to Add an Interactive Flow
-
-Your app can respond to inbound requests from Slack like shortcuts, slash commands, and events.
-
-Your app can also make requests out to Slack on its own schedule, such as through a scheduled job, or due to some incident within its own service layer.
-
-To add any of these flows, write code to [handle a Slack action](actions.md). The handler obtains a Slack [client](actions.md) to publish a [view](views.md) to a [Slack surface area](surfaces.md).
-
 ### Requirements
 
 * A Bot User must be added to your App
 * Your App must be subscribed to [Events API](https://api.slack.com/events-api)
 * Your app needs to be subscribed to the events mentioned in the *Events* section
 
-### Scopes
+#### Scopes
 
 * [`chat:write`](https://api.slack.com/scopes/chat:write)
+* [`commands`](https://api.slack.com/scopes/commands)
+* [`app_mentions:read`](https://api.slack.com/scopes/app_mentions:read)
 
-### Events
+#### Bot Events
 
-#### Workspace events
+* [`app_mention`](https://api.slack.com/events/app_mention)
 * [`app_home_opened`](https://api.slack.com/events/app_home_opened)
+* [`message.channels`](https://api.slack.com/events/message.channels)
+* [`message.im`](https://api.slack.com/events/message.im)
+
+More events may need to be added depending on the functionality that is implemented.
+
+#### User Events
+
+* [`message.app_home`](https://api.slack.com/events/message.app_home)
+
+## Write Code to Add an Interactive Flow
+
+You can add funcitonality to your slack app by javascript code on Glitch. Find good examples on <a href="https://slack.dev/bolt-js/concepts#message-sending" target="_blank">Bolt's concept list</a>
+
+### Common Mistakes
+
+1. The Home Tab and Messages Tab needs to be turned on. ![Screen Shot 2021-07-19 at 3 14 08 PM](https://user-images.githubusercontent.com/85207298/126214380-48da7d8f-aebc-4050-92cc-eac0baf831a0.png)
+
+2. The Bot User OAuth Token needs to match your enviroment variables in Glitch ![Screen Shot 2021-07-19 at 3 17 26 PM](https://user-images.githubusercontent.com/85207298/126214941-117b4cd9-daec-4937-a49a-edde985d4884.png)
+
 
 
